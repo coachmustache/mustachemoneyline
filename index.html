@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Mustache Moneyline</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-wrap">
+      <div class="logo-mark">MM</div>
+      <div>
+        <h1>Mustache Moneyline</h1>
+        <p>Model-driven plays, tracking, and betting dashboards.</p>
+      </div>
+    </div>
+
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="todays-plays.html">Today's Plays</a>
+      <a href="model-summary.html">Model Summary</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero-card">
+      <p class="eyebrow">Private Betting Dashboard</p>
+      <h2>Track the board. Trust the model.</h2>
+      <p>
+        This dashboard pulls live data from your Google Sheets models and displays
+        today’s plays, model summaries, ROI, units, CLV, and performance snapshots.
+      </p>
+
+      <div class="button-row">
+        <a class="button primary" href="todays-plays.html">View Today's Plays</a>
+        <a class="button secondary" href="model-summary.html">View Model Summary</a>
+      </div>
+    </section>
+
+    <section class="grid two-col">
+      <article class="info-card">
+        <h3>Today's Plays</h3>
+        <p>
+          Live cards for RFI, NRFI, YRFI, props, parlays, and any model output you publish
+          from Sheets.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h3>Model Summary</h3>
+        <p>
+          Summary cards for each model showing record, units, ROI, CLV, win rate,
+          and last updated.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Mustache Moneyline · Data updates from published Google Sheets CSV feeds.</p>
+  </footer>
+</body>
+</html>
